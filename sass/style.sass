@@ -1,0 +1,130 @@
+$color_orange: #ff9966 
+*
+  font-family: 微軟正黑體
+  //border: solid 1px #666
+  //debug-設成不顯示只有留下自己要看的
+  // header
+  //   display: none
+  // section
+  //   display: none
+  // section#section_future
+  //   display: block
+body
+  height: 1000px
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+nav.navbar
+  transition: 0.5s
+  
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  background-color: transparent
+  a
+    color: white
+    transition: 0.5s
+    &:hover
+      color: $color_orange
+      
+  
+header.jumbotron
+  text-align: center
+  background-image: url(https://f12.baidu.com/it/u=603773000,496043429&fm=72)
+  background-size: cover
+  //背景圖固定,background-attachment背景圖黏著方式使用固定,固定螢幕上特定位置
+  background-attachment: fixed
+  margin-bottom: 0px
+  //height: 400px
+  
+  .container
+    color: white
+    padding: 200px 0 //上下 跟 左右
+  hr
+    max-width: 50px
+    border: solid 2px $color_orange
+  h4
+    color: rgba(white,0.5) //半透明的顏色
+    font-weight: norml //因為字很小 就不在+粗
+
+section
+  padding: 50px 0px
+
+section#section_ask
+  background-color: $color_orange
+  .col-sm-5.img
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/40/fa/57/40fa57326c389cf17897db5182291ca8.jpg)
+    height: 350px
+    mix-blend-mode: multiply
+  
+  //css-mix-blend-mode圖層混合模式
+    //https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode
+  h2
+    margin-top: 130px
+    padding: 0px 20px  
+
+section#section_about
+  img
+    width: 130%
+  .img_wrap
+    height: 220px
+    overflow: hidden
+
+section#section_story
+  background-color: #222
+  color: white
+  padding: 0
+  .col-sm-5
+    background-image: url(http://pic.58pic.com/58pic/16/47/86/19E58PICq6p_1024.jpg)
+    height: 400px
+    
+    background-size: 100% auto //上下 左右
+    
+    .cross
+      position: absolute
+      left: 23%
+      top: 40%
+      color: red
+      font-size: 30px
+      font-weight: bold
+  .col-sm-7
+    text-align: center
+    i
+      font-size: 40px
+  .col-sm-12.features
+    margin-top: 40px
+    margin-bottom: 40px
+    
+section#section_future
+  img
+    width: 100%
+  i
+    font-size: 30px
+  .feature
+    padding-top: 10px
+    padding-bottom: 10px
+    
+footer.jumbotron
+  text-align: center
+  background-image: url(https://f12.baidu.com/it/u=603773000,496043429&fm=72)
+  background-size: cover
+  //背景圖固定,background-attachment背景圖黏著方式使用固定,固定螢幕上特定位置
+  background-attachment: fixed
+  margin-bottom: 0px
+  //height: 400px
+  input
+    //背景透明
+    background-color: transparent
+    max-width: 300px 
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+   
+  .container
+    color: white
+    padding: 60px 0 //上下 跟 左右
+  hr
+    max-width: 50px
+    border: solid 2px $color_orange
+    background-color: $color_orange
+  
+      
+  
+    
